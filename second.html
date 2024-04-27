@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acafei</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
+        h1, h2 {
+            margin-top: 0;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .menu-item {
+            margin-bottom: 10px;
+        }
+        .checkout {
+            text-align: center;
+        }
+        .checkout button {
+            padding: 10px 20px;
+            background-color: #2c3e50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .checkout button:hover {
+            background-color: #34495e;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Acafei</h1>
+        <p>Your cozy place for delicious coffee and more!</p>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Acafei! We are passionate about serving high-quality coffee and tasty treats in a warm and inviting atmosphere. Whether you're craving a latte, cappuccino, or a freshly baked pastry, we have something for everyone.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Espresso</h3>
+            <p>Single shot of espresso made with freshly ground coffee beans.</p>
+            <p><strong>Ingredients:</strong> Coffee beans</p>
+            <p><strong>Calories:</strong> 5</p>
+        </div>
+        <div class="menu-item">
+            <h3>Cappuccino</h3>
+            <p>Espresso mixed with steamed milk and topped with foamed milk.</p>
+            <p><strong>Ingredients:</strong> Espresso, milk, foam</p>
+            <p><strong>Calories:</strong> 120</p>
+        </div>
+        <div class="menu-item">
+            <h3>Chocolate Croissant</h3>
+            <p>Buttery croissant filled with rich chocolate.</p>
+            <p><strong>Ingredients:</strong> Flour, butter, chocolate</p>
+            <p><strong>Calories:</strong> 250</p>
+        </div>
+    </section>
+
+    <section id="checkout" class="checkout">
+        <h2>Checkout</h2>
+        <p>Select a payment method:</p>
+        <input type="radio" id="creditCard" name="payment" value="creditCard">
+        <label for="creditCard">Credit Card</label><br>
+        <input type="radio" id="paypal" name="payment" value="paypal">
+        <label for="paypal">PayPal</label><br>
+        <input type="radio" id="cash" name="payment" value="cash">
+        <label for="cash">Cash</label><br><br>
+        <button>Proceed to Payment</button>
+    </section>
+</body>
+</html>
